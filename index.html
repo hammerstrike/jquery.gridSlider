@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Grid Slider</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="gridSlider" class="gridSlider"></div>    
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.gridslider.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var images = [
+                'images/12810087686.jpg',
+                'images/13069586630.jpg',
+                'images/15814564864.jpg',
+                'images/19010169193.jpg',
+                'images/2587950669.jpg',
+                'images/3118776557.jpg',
+                'images/5749937378.jpg',
+                'images/1.jpg',
+                'images/2.jpg',
+                'images/3.jpg',
+                'images/4.jpg',
+                'images/5.jpg',
+                'images/6.jpg',
+                'images/7.jpg',
+                'images/8.jpg',
+                'images/9.jpg',
+                'images/10.jpg',
+                'images/11.jpg',
+                'images/12.jpg',
+                'images/13.jpg',
+                'images/14.jpg',
+                'images/15.jpg',
+                'images/16.jpg',
+                'images/17.jpg',
+                'images/18.jpg',
+                'images/19.jpg',
+                'images/20.jpg'
+            ]
+
+            $('#gridSlider').gridSlider({                
+                cols: 3,
+                rows : 3,
+                images: images, // Array of images
+                height: '150px',// height of single cell
+                width : '270px' // width of single cell
+            });
+
+        });
+    </script>
+</body>
+</html>

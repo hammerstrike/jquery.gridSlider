@@ -1,0 +1,19 @@
+/*  Custom Grid */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.gridSlider .grid_row {
+    display: block;
+    font-size: 0;
+}
+
+    .gridSlider .grid_row .grid-col {
+        display: inline-block;
+        width: 270px;
+        height: 150px;
+        overflow: hidden;
+        margin: 1px;
+    }
