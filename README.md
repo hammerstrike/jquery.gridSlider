@@ -1,4 +1,4 @@
-jquery.gridSldier
+jquery.gridSlider
 =================
 
-jQuery Grid Sldier
+jQuery Grid Slider
